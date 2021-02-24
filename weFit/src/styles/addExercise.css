@@ -1,0 +1,84 @@
+.workoutContainer{
+}
+
+.addExerciseContainer{
+    text-align: center;
+    /* margin-left: 20vw !important; */
+    /* background-color: red; */
+    /* width: 45%; */
+    /* margin-left: 10vw; */
+}
+
+.trackerHeaderContainer{
+    /* background-color: yellow; */
+    margin: 0 auto;
+    /* margin-right: 100vw; */
+    font-weight: bolder;
+}
+
+.workoutHeader{
+    color: #00e153;
+    font-size: 75px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%
+}
+
+.mainBody{
+}
+
+.addExerciseForm{
+    /* background-color: blue; */
+    /* float: left;
+    width: 50%;
+    margin: 0 auto; */
+}
+
+
+
+
+.label{
+    color: #f8f8f8;
+    text-align: center;
+}
+
+.exerciseInput{
+    margin: 0 auto;
+    background-color: #dcdcdc;
+    display: block;
+    border: none;
+    width: 70%;
+    font-size: 20px;
+    margin-bottom: 3%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.addExerciseButton {
+    margin: 0 auto;
+    background-color: #00e153;
+    display: block;
+    border: none;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 10px;
+    color: #f8f8f8;
+}
+
+.buttonContainer{
+    margin-top: 50px;
+}
+
+
+textarea{
+    resize: none;
+}
+
+.exerciseScheduled{
+    margin: 5%;
+    display: inline-block;
+}

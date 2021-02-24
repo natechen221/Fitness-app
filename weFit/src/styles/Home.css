@@ -1,0 +1,62 @@
+.homeContainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.leftSideHome{
+    float: left;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.rightSideHome{
+    float: right;
+    background-color: #000000;
+}
+
+.content{
+    margin-left: 15vw;
+    width: 30vw;
+}
+
+.homeHeader{
+    font-size: 90px;
+    margin-top: 25%;
+    text-align: left;
+    color: #00e153;
+    font-weight: bolder;
+}
+
+.welcomeText{
+    color: white;
+    font-size: 25px;
+    margin-top: 5vh;
+    text-align: left;
+}
+
+.homePhoto{
+    margin: 0;
+    padding: 0;
+    max-height: 100vh !important;
+    float: right;
+}
+
+
+.homeButton{
+    background-color: #00e153;
+    margin-top: 5vh;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+}
+
+.homeLink{
+    text-decoration: none;
+    color: #f8f8f8;
+}

@@ -1,0 +1,62 @@
+#EditContainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#EditContainer .formChange{
+    position: relative;
+    bottom: 15%;
+}
+
+#EditContainer .wholeSide{
+    float: right;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#EditContainer .inputContainer{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5vh;
+}
+
+#EditContainer .formHeader{
+    font-size: 9vh;
+    font-weight: bolder;
+    color: #00e153;
+    text-align: center;
+    margin-top: 300px;
+}
+
+#EditContainer .formInput{
+    outline-style: none ;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    padding: 13px 14px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4vh;
+}
+
+
+.editButtonContainer{
+    margin: 0 auto;
+}
+
+.changeButton{
+    border: none;
+    background-color: #00e153;;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+}

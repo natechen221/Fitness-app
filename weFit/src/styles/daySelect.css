@@ -1,0 +1,68 @@
+.weekDayContainer{
+    /* background-color: red; */
+    margin-top: 10vh;
+}
+
+.infoText{
+    color: #f8f8f8;
+    font-size: 20px;
+    margin-bottom: 10vh;
+}
+
+.tabs li{
+    border-bottom-color: #000000 !important;
+    color: #f8f8f8;
+}
+
+.tabs li.is-active a {
+    border-bottom-color: #000000 !important;
+    color: #00e153;
+}
+
+.tabs.is-boxed li.is-active a {
+    background-color: #000000;
+    border-color: #000000 !important;
+    border-bottom-color: transparent !important;
+}
+
+.tabs a {
+    align-items: center;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    vertical-align: top;
+    font-size: 30px;
+}
+
+.tabs.is-boxed a:hover {
+    background-color: #000000;
+    border-bottom-color: #000000;
+    color: #00e153;
+}
+
+.tabs.is-boxed a{
+    border-bottom-color: #000000;
+}
+
+.tabs{
+    border-bottom-color: #000000;
+}
+
+
+.tabs ul {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-start;
+}
+
+ul{
+    margin-top: 10vh;
+    list-style-type: none;
+}

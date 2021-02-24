@@ -1,0 +1,17 @@
+section .box{
+    display: block;
+    margin-top: 10vh;
+}
+
+.tag:not(body).is-link {
+    background-color:#00e153;;
+    color: #f8f8f8;
+}
+
+.box{
+    position: absolute;
+    left: 5vh;
+    top: 70vh;
+    /* background-color: #fe7700; */
+}
+

@@ -1,0 +1,29 @@
+.modalLabel{
+    font-weight: bolder !important;
+}
+
+.boxModal{
+    font-weight: normal !important;
+}
+
+.formLabel{
+    color: #232323;
+}
+
+.modal-footer {
+    display: inline !important;
+    align-items: center;
+    justify-content: flex-end;
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px);
+}
+
+.modalButtonContainer{
+    margin-top: 30px;
+}
+
+.saveButton{
+    margin-left: 20px;
+}

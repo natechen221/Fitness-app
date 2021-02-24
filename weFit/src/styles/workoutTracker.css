@@ -1,0 +1,38 @@
+.removeButton{
+    margin-left: 10px;
+}
+
+.bodyContainer{
+    display: flex;
+}
+
+.bodybodyContainer{
+    flex: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.bodybodyContainer2{
+    margin-top: 0vh;
+    flex: 50%;
+    width: 20%;
+}
+
+.tagsContainer{
+    display: inline-block;
+}
+
+.rightSideStuff{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.viewForm{
+    /* position: absolute; */
+    /* background-color: teal; */
+}
+
+.formModal{
+    margin-left: 0;
+}

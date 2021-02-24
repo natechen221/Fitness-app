@@ -1,0 +1,123 @@
+#profileContainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#profileContainer .leftSide{
+    float: left;
+    background-color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 50%;
+}
+
+#profileContainer .rightSide{
+    float: right;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    margin-right: 10vw;
+}
+
+
+#profileContainer .inputContainer{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#profileContainer .profileHeader{
+    padding-bottom: 7%;
+    font-size: 9vh;
+    font-weight: bolder;
+    color: #00e153;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#profileContainer .formInput{
+    outline-style: none ;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    padding: 13px 14px;
+    width: 75%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#profileContainer .EditButton{
+    border: none;
+    background-color: #00e153;;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: bold;
+    width: 75%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.rightText{
+    margin-top: 30%;
+    font-size: 50px;
+    font-weight: bolder;
+    word-wrap:break-word;
+    color: #f8f8f8;
+    margin: 20vh auto;
+    
+}
+
+.rightTextAuthor{
+    padding-top: 5%;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #cbcbcb;
+}
+
+.VIPContainer{
+    padding-top: 10%;
+}
+
+.upButton{
+    border: none;
+    background-color: #00e153;
+    color: #f2f2f2;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 80%;
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+.downButton{
+    border: none;
+    background-color: #555555;
+    color: #f2f2f2;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 80%;
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+.selectInputProfile{
+    margin: 0 auto;
+    background-color: #dcdcdc;
+    display: block;
+    border: none;
+    width: 75%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.editButtonContainer{
+    margin-bottom: 10vh;
+
+}

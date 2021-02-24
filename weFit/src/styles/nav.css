@@ -1,0 +1,74 @@
+.containerForNav {
+  text-align: center;
+}
+
+.navBar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navBar li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+.a {
+  color: #f8f8f8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.a:hover {
+  color: #00e153;
+  text-decoration: none;
+}
+
+.a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #00e153;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.a:hover::before {
+  width: 100%;
+}
+
+.signOutButton{
+  background-color: #000000;
+  color: #f8f8f8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+
+.signOutButton:hover {
+  color: #00e153;
+}
+
+.signOutButton::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #00e153;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.signOutButton.hover::before {
+  width: 100%;
+}
